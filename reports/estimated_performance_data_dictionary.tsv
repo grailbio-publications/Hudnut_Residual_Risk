@@ -1,0 +1,23 @@
+ppv Positive Predictive Value (input)
+cso_one Accuracy of first cancer signal origin guiding diagnosis (input)
+cso_two Accuracy of second cancer signal origin guiding diagnosis (input)
+sens  sensitivity of confirmatory test (input)
+spec  specificity of confirmatory test (input)
+tp_at_zero  true positives are in the initial ppv pool
+fp_at_zero  false positives in the initial ppv pool
+tp_at_one true positives found by first confirmatory test
+ghost_at_one  false-positives needing workup at first confirmatory test
+fp_at_one false positives in the pool after first confirmatory test
+tp_after_one  true positives in the pool after first confirmatory test
+tp_after_one_with_correct_cso true positives matching first cso remaining in pool
+tp_after_one_with_incorrect_cso true positives matching some other cso remaining in pool
+tp_at_two true positives found by second confirmatory test
+fp_at_two false positives in the pool after second confirmatory test
+ghost_at_two  false positives needing workup at second confirmatory test
+tp_after_two  true positives remaining after second confirmatory test
+fp_after_two  false positives remaining after second confirmaory test
+residual_risk_one residual risk of current cancer after first confirmatory test
+cso_likely_elsewhere  risk that cancer diagnosis should occur at another cso than the first
+total_ghosts_one  cumulative false positives needing extra workup after confirmatory test one
+residual_risk_two residual risk of current cancer after second confirmatory test
+total_ghosts_two  cumulative false positives needing extra workup after second confirmatory test
